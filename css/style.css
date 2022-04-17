@@ -40,7 +40,8 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  overflow-x: hidden; }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -52,6 +53,7 @@ html {
       font-size: 75%; } }
 
 body {
+  overflow-x: hidden;
   box-sizing: border-box;
   padding: 3rem; }
   @media (max-width: 56.25em) {

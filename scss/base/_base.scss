@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 
     @include respond(tab-land) {
         font-size: 56.25%; //1rem = 9px
@@ -23,6 +24,7 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     box-sizing: border-box;
     padding: 3rem;
 
