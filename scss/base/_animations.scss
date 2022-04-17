@@ -1,0 +1,37 @@
+@keyframes fadein-right {
+    0% {
+        transform: translateX(-30%);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadein-left {
+    0% {
+        transform: translateX(30%);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadein-top {
+    0% {
+        transform: translateY(3rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
