@@ -14,6 +14,11 @@
             @include respond(tab-port) {
                 left: -10rem;
             }
+
+            @include respond(phone) {
+                left: -3rem;
+            }
+
             &:hover {
                 z-index: 10;
                 transform: scale(1.1);
@@ -29,6 +34,9 @@
             @include respond(tab-port) {
                 top: 0rem;
                 right: -10rem;
+            }
+            @include respond(phone) {
+                right: -3rem;
             }
 
             &:hover {

@@ -389,6 +389,9 @@ body {
     @media (max-width: 56.25em) {
       .composition__photo--p1 {
         left: -10rem; } }
+    @media (max-width: 37.5em) {
+      .composition__photo--p1 {
+        left: -3rem; } }
     .composition__photo--p1:hover {
       z-index: 10;
       transform: scale(1.1);
@@ -401,6 +404,9 @@ body {
         .composition__photo--p2 {
           top: 0rem;
           right: -10rem; } }
+      @media (max-width: 37.5em) {
+        .composition__photo--p2 {
+          right: -3rem; } }
       .composition__photo--p2:hover {
         z-index: 10;
         transform: scale(1.1);
@@ -721,6 +727,9 @@ body {
   @media (max-width: 56.25em) {
     .navigation__button {
       top: 3rem; } }
+  @media (max-width: 37.5em) {
+    .navigation__button {
+      right: 3rem; } }
 .navigation__background {
   height: 6rem;
   width: 6rem;
@@ -734,6 +743,9 @@ body {
   @media (max-width: 56.25em) {
     .navigation__background {
       top: 3rem; } }
+  @media (max-width: 37.5em) {
+    .navigation__background {
+      right: 3.5rem; } }
 .navigation__nav {
   height: 100vh;
   width: 100%;
